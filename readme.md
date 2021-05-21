@@ -53,6 +53,16 @@ Possui um sistema operacional, normalmente **Linux**, permite a escrita diretame
 
 ## Para utilização
 
+Antes de tudo: instalar node.js e node-red
+
+para instalar:
+
+```console
+ npm install -g --unsafe-perm node-red
+```
+
+Para rodar:
+
 ```console
 node-red
 ```

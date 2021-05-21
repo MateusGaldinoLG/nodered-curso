@@ -1,0 +1,3 @@
+Se for exportado para o clipboard, ele virá assim:
+
+[{"id":"446be086.b3786","type":"tab","label":"Flow 1","disabled":false,"info":""},{"id":"ca3272b4.ff71e","type":"inject","z":"446be086.b3786","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":130,"y":240,"wires":[["d9027054.24d8"]]},{"id":"d9027054.24d8","type":"debug","z":"446be086.b3786","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":450,"y":240,"wires":[]}]

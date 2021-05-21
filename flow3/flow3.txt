@@ -1,0 +1,5 @@
+API:
+https://api.hgbrasil.com/weather?woeid=455827
+
+JSON:
+[{"id":"dc0a89f8.d7f5d8","type":"tab","label":"Flow 2","disabled":false,"info":""},{"id":"a29a2e3.e022fd","type":"inject","z":"dc0a89f8.d7f5d8","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":130,"y":100,"wires":[["751c2d6a.7386d4"]]},{"id":"751c2d6a.7386d4","type":"http request","z":"dc0a89f8.d7f5d8","name":"","method":"GET","ret":"txt","paytoqs":"ignore","url":"https://api.hgbrasil.com/weather?woeid=455827","tls":"","persist":false,"proxy":"","authType":"","x":340,"y":100,"wires":[["1ac87862.f7fc88"]]},{"id":"1ac87862.f7fc88","type":"debug","z":"dc0a89f8.d7f5d8","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":630,"y":100,"wires":[]}]
